@@ -53,7 +53,7 @@ export default function MahasiswaForm() {
                         value={form.nim}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border rounded"
+                        className="w-full px-3 py-2 border rounded bg-white"
                     />
                 </div>
                 <div>
@@ -64,7 +64,7 @@ export default function MahasiswaForm() {
                         value={form.nama}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border rounded"
+                        className="w-full px-3 py-2 border rounded bg-white"
                     />
                 </div>
 
@@ -75,7 +75,7 @@ export default function MahasiswaForm() {
                         value={form.prodi}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border rounded"
+                        className="w-full px-3 py-2 border rounded bg-white"
                     />
                 </div>
 
@@ -87,7 +87,7 @@ export default function MahasiswaForm() {
                         value={form.angkatan}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border rounded"
+                        className="w-full px-3 py-2 border rounded bg-white"
                     />
                 </div>
 
@@ -99,7 +99,7 @@ export default function MahasiswaForm() {
                         value={form.email}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border rounded"
+                        className="w-full px-3 py-2 border rounded bg-white"
                     />
                 </div>
 
@@ -114,7 +114,7 @@ export default function MahasiswaForm() {
                     <button
                         type="button"
                         onClick={() => navigate('/mahasiswa')}
-                        className="text-sm text-gray-500 hover:underline"
+                        className="text-sm text-white hover:underline bg-red-600"
                     >
                         Batal / Kembali
                     </button>

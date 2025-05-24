@@ -20,6 +20,7 @@ const lainnya = [
 
 const dataMaster = [
     { label: "Mahasiswa", icon: BookUser, path: "/mahasiswa" },
+    { label: "Mata Kuliah", icon: BookUser, path: "/matakuliah" },
 ];
 
 function renderMenu(menu: typeof perkuliahan) {

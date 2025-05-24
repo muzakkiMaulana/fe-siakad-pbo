@@ -13,6 +13,8 @@ export default function MahasiswaLayout() {
                     ➕ Mahasiswa Baru
                 </button>
             </div>
+
+            {/* Halaman yang di-nest akan ditampilkan di sini */}
             <Outlet />
         </div>
     );
